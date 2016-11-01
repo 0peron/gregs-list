@@ -1,0 +1,33 @@
+nav	{
+	height: 80px
+	width:100%;
+	background-color: grey;
+	display: fixed;
+	text-align: right;
+
+}
+
+.name {
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+ul li {
+	display: inline-block;
+	font-size: 20px;
+}
+
+.search {
+	display: inline-block;
+}
+
+input {
+	border-radius: 4px;
+}
+
+.glass {
+	width: 25px;
+	border: 1px solid grey;
+	border-radius: 4px;
+}
