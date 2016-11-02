@@ -12,9 +12,9 @@ body {
 nav	{
 	height: 80px
 	width:100%;
-	background-color: grey;
+	background-color: lightgrey;
 	display: fixed;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid grey;
 
 }
 
@@ -42,14 +42,26 @@ ul li {
 
 input {
 	border-radius: 4px;
-	width: 300px;
+	width: 400px;
 	height: 30px;
+	border: 1px solid grey;
+}
+.software {
+	font-weight: bold;
+	font-size: 15px;
+	font-family: arial;
 }
 
 .glass {
-	width: 30px;
+	width: 25px;
+
+}
+
+.mag {
+	float: right;
+	background-color: white;
+	margin-left: 5px;
 	border: 1px solid grey;
-	border-radius: 4px;
 }
 
 form {
@@ -58,28 +70,38 @@ form {
 
 .bar {
 	display: inline-block;
-}
-
-.button {
-	border-radius: 4px;
-	color: black;
-	background-color: white;
-	display: inline-block;
-	text-decoration: none;
-	margin-top: 8px
-}
-
-.bar > p {
+	margin-top: 30px;
+	margin-left: 50px;
 	border: 1px solid black;
+	height: 30px;
+}
+
+.button1 {
+	float: left;
+	margin-right: -5px;
+	background-color: white;
+	height: 30px;
+}
+
+.button2 {
+	float: right;
+	margin-left: -5px;
+	background-color: white;
+	height: 30px;
+}
+
+.entry {
+	background-color: white;
+	height: 30px;
 }
 
 .text {
 	color: grey;
-}
-a {
-	text-decoration: none;
+	margin-top: 40px;
 }
 
-.text a:link {
+a {
+	text-decoration: none;
 	color: blue;
+	font-weight: bold;
 }
