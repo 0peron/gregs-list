@@ -1,7 +1,7 @@
 body {
 	width: 100%;
 	margin: auto auto;
-	font-family: arial;
+	font-family: Arial;
 }
 
 .container {
@@ -34,10 +34,14 @@ nav > h1, nav ul {
 	margin-right: 20px;
 }
 
-ul > li {
+ul > li, 
+li > a {
 	text-decoration: none;
+}
+
+ul > li {
 	display: inline-block;
-	font-size: 20px;
+	font-size: 18px;
 	margin-right: 20px;
 }
 	
@@ -48,8 +52,9 @@ form {
 input {
 	border-radius: 4px;
 	width: 400px;
-	height: 30px;
-	border: 1px solid grey;
+	height: 31px;
+	border: 1px solid lightgrey;
+
 }
 .software {
 	font-weight: bold;
@@ -61,38 +66,50 @@ input {
 	float: right;
 	background-color: white;
 	margin-left: 5px;
-	border: 1px solid grey;
+	border: 1px solid lightgrey;
+	margin-top: 0.5px;
+	border-radius: 4px;
 }
 
 .glass {
-	width: 25px;
+	width: 23px;
+	height: 25px;
 }
 
 .bar {
 	display: inline-block;
 	margin-top: 30px;
-	margin-left: 50px;
-	border: 1px solid black;
 	height: 30px;
+}
+
+.bar > button {
+	background-color: white;
+	border: 1px solid lightgrey;
+	height: 30px;
+	font-size: 16px;
 }
 
 .button1 {
 	float: left;
 	margin-right: -5px;
-	background-color: white;
-	height: 30px;
+	width: 90px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	
 }
 
 .entry {
-	background-color: white;
-	height: 30px;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 140px;
 }
 
 .button2 {
 	float: right;
 	margin-left: -5px;
-	background-color: white;
-	height: 30px;
+	width: 90px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
 }
 
 .text {
@@ -104,4 +121,5 @@ input {
 	text-decoration: none;
 	color: blue;
 	font-weight: bold;
+
 }
